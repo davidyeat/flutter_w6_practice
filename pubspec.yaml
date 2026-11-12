@@ -1,0 +1,20 @@
+name: w6_practice
+description: "W6 practice: stateless widgets."
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+ 
+  assets:
+    - assets/dices/
+    - assets/ex3/
+    - assets/ex4/
